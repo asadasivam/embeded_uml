@@ -1,4 +1,4 @@
 # embeded_uml
 # git_uml_v1.0
 
-- getWashSelection() method in Class WashOption invoking in Class WM.
+- Invoking a method getWashSelection() from Class WashOption using Class WM.
