@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:java="http://www.eclipse.org/papyrus/JAVA/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_Z5Mv8H1_EeusDqr32YudgA" name="aOperationInvoke">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Z7hrMH1_EeusDqr32YudgA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_dmikYH1_EeusDqr32YudgA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kJbCkH1_EeusDqr32YudgA" name="ClassA" classifierBehavior="_z0v2gH2AEeusDqr32YudgA" isActive="true">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_o7U14H2AEeusDqr32YudgA" name="bobject" type="_dJVOgH2AEeusDqr32YudgA" aggregation="composite" association="_o6yqYH2AEeusDqr32YudgA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o7WEAH2AEeusDqr32YudgA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o7WEAX2AEeusDqr32YudgA" value="1"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_z0v2gH2AEeusDqr32YudgA" name="Behaviour" isActive="true">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CfhB0H2BEeusDqr32YudgA" name="" type="_kJbCkH1_EeusDqr32YudgA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_C94Y0H2BEeusDqr32YudgA" name="" type="_dJVOgH2AEeusDqr32YudgA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_CfgawH2BEeusDqr32YudgA" name="" represents="_CfhB0H2BEeusDqr32YudgA" coveredBy="_IHbskH2BEeusDqr32YudgA _IG0BgH2BEeusDqr32YudgA _KdVM8H2BEeusDqr32YudgA _KeDlsH2BEeusDqr32YudgA _IHYCMH2BEeusDqr32YudgA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_C93KsH2BEeusDqr32YudgA" name="" represents="_C94Y0H2BEeusDqr32YudgA" coveredBy="_KdV0AH2BEeusDqr32YudgA _KeC-oH2BEeusDqr32YudgA _Kd_UQH2BEeusDqr32YudgA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IHbskH2BEeusDqr32YudgA" name="Message9SendEvent" covered="_CfgawH2BEeusDqr32YudgA" message="_IHbFgH2BEeusDqr32YudgA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IG0BgH2BEeusDqr32YudgA" name="Message5ReceiveEvent" covered="_CfgawH2BEeusDqr32YudgA" message="_IGyMUH2BEeusDqr32YudgA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_IHYCMH2BEeusDqr32YudgA" name="BehaviorExecutionSpecification7" covered="_CfgawH2BEeusDqr32YudgA" finish="_IHbskH2BEeusDqr32YudgA" start="_IG0BgH2BEeusDqr32YudgA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KdVM8H2BEeusDqr32YudgA" name="Message10SendEvent" covered="_CfgawH2BEeusDqr32YudgA" message="_KdT-0H2BEeusDqr32YudgA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KdV0AH2BEeusDqr32YudgA" name="Message10ReceiveEvent" covered="_C93KsH2BEeusDqr32YudgA" message="_KdT-0H2BEeusDqr32YudgA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Kd_UQH2BEeusDqr32YudgA" name="BehaviorExecutionSpecification13" covered="_C93KsH2BEeusDqr32YudgA" finish="_KeC-oH2BEeusDqr32YudgA" start="_KdV0AH2BEeusDqr32YudgA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KeC-oH2BEeusDqr32YudgA" name="Message15SendEvent" covered="_C93KsH2BEeusDqr32YudgA" message="_KeCXkH2BEeusDqr32YudgA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KeDlsH2BEeusDqr32YudgA" name="Message15ReceiveEvent" covered="_CfgawH2BEeusDqr32YudgA" message="_KeCXkH2BEeusDqr32YudgA"/>
+        <message xmi:type="uml:Message" xmi:id="_IGyMUH2BEeusDqr32YudgA" name="Message5" receiveEvent="_IG0BgH2BEeusDqr32YudgA" signature="_s_BKQH1_EeusDqr32YudgA"/>
+        <message xmi:type="uml:Message" xmi:id="_IHbFgH2BEeusDqr32YudgA" name="Message9" messageSort="reply" sendEvent="_IHbskH2BEeusDqr32YudgA" signature="_s_BKQH1_EeusDqr32YudgA"/>
+        <message xmi:type="uml:Message" xmi:id="_KdT-0H2BEeusDqr32YudgA" name="Message10" receiveEvent="_KdV0AH2BEeusDqr32YudgA" sendEvent="_KdVM8H2BEeusDqr32YudgA" signature="_fclDgH2AEeusDqr32YudgA"/>
+        <message xmi:type="uml:Message" xmi:id="_KeCXkH2BEeusDqr32YudgA" name="Message15" messageSort="reply" receiveEvent="_KeDlsH2BEeusDqr32YudgA" sendEvent="_KeC-oH2BEeusDqr32YudgA" signature="_fclDgH2AEeusDqr32YudgA"/>
+      </ownedBehavior>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_s_BKQH1_EeusDqr32YudgA" name="aOperation">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_atF1kH2AEeusDqr32YudgA" name="result" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dJVOgH2AEeusDqr32YudgA" name="ClassB">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_fclDgH2AEeusDqr32YudgA" name="bOperation">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_nJhhEH2AEeusDqr32YudgA" name="result" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_o6yqYH2AEeusDqr32YudgA" name="classA_classB_1" memberEnd="_o7U14H2AEeusDqr32YudgA _o7WrEH2AEeusDqr32YudgA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o6270H2AEeusDqr32YudgA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_o63i4H2AEeusDqr32YudgA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_o7WrEH2AEeusDqr32YudgA" name="aobject" type="_kJbCkH1_EeusDqr32YudgA" association="_o6yqYH2AEeusDqr32YudgA"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0O2OAH1_EeusDqr32YudgA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0O4qQH1_EeusDqr32YudgA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
+    </profileApplication>
+  </uml:Model>
+  <java:JavaClass xmi:id="_4s54QH2AEeusDqr32YudgA" base_Classifier="_kJbCkH1_EeusDqr32YudgA"/>
+  <java:JavaMethod xmi:id="_54jzEH2AEeusDqr32YudgA" base_Operation="_s_BKQH1_EeusDqr32YudgA"/>
+  <java:JavaMethod xmi:id="_7MuJoH2AEeusDqr32YudgA" base_Operation="_fclDgH2AEeusDqr32YudgA"/>
+  <java:JavaClass xmi:id="_8lJ8MH2AEeusDqr32YudgA" base_Classifier="_dJVOgH2AEeusDqr32YudgA"/>
+  <java:JavaClass xmi:id="_-w-6kH2AEeusDqr32YudgA" base_Classifier="_o6yqYH2AEeusDqr32YudgA"/>
+  <java:JavaClass xmi:id="_5XWcEH2DEeusDqr32YudgA" base_Classifier="_z0v2gH2AEeusDqr32YudgA"/>
+</xmi:XMI>
